@@ -1,0 +1,15 @@
+﻿@page "/diesel"
+@rendermode InteractiveServer
+@inject HttpClient httpClient
+
+<LineChart title="Diesel" data="diesel"></LineChart>
+
+@code {
+	public List<Miles> diesel;
+
+	protected override async Task OnInitializedAsync()
+	{
+		base.OnInitialized();
+		diesel = await httpClient.GetFromJsonAsync<List<Miles>>("https://magsapi.onrender.com/api/diesel");
+	}
+}

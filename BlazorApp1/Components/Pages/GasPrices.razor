@@ -1,0 +1,25 @@
+﻿@page "/gas-prices"
+@rendermode InteractiveServer
+@inject HttpClient httpClient
+
+@if (miles95 != null && diesel != null)
+{
+	<ApexChart TItem="Miles" Title="Gas Prices" XAxisType="XAxisType.Datetime">
+		<ApexPointSeries TItem="Miles" Items="@miles95" SeriesType="@SeriesType.Area" Name="Miles95" XValue="@(e => e.date)" YValue="@(e => e.price)"/>
+		<ApexPointSeries TItem="Miles" Items="@diesel" SeriesType="@SeriesType.Area" Name="Diesel" XValue="@(e => e.date)" YValue="@(e => e.price)" />
+	</ApexChart>
+}
+
+@* <LineChart title="Miles95" data="miles95"></LineChart>
+ *@
+@code {
+	public List<Miles> miles95;
+	public List<Miles> diesel;
+
+	protected override async Task OnInitializedAsync()
+	{
+		base.OnInitialized();
+		miles95 = await httpClient.GetFromJsonAsync<List<Miles>>("https://magsapi.onrender.com/api/miles95");
+		diesel = await httpClient.GetFromJsonAsync<List<Miles>>("https://magsapi.onrender.com/api/diesel");
+	}
+}

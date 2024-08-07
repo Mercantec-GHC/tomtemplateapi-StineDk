@@ -1,7 +1,7 @@
 ﻿@if (data != null)
 {
 	<ApexChart TItem="Miles" Title="@title" XAxisType="XAxisType.Datetime">
-		<ApexPointSeries TItem="Miles" Items="@data" Name="@title" SeriesType="SeriesType.Line" XValue="@(e => e.date)" YValue="@(e => e.price)" />
+		<ApexPointSeries TItem="Miles" Items="@data" Name="@title" SeriesType="SeriesType.Area" XValue="@(e => e.date)" YValue="@(e => e.price)" />
 	</ApexChart>
 }
 

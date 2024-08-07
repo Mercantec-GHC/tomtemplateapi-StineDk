@@ -1,4 +1,4 @@
-﻿namespace BlazorApp1.DomainModels
+﻿namespace DomainModels
 {
 	public class Miles
 	{
