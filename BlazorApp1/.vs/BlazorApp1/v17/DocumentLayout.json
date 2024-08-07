@@ -1,17 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ricob\\source\\repos\\BlazorApp1\\",
+  "WorkspaceRootPath": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\tomtemplateapi-StineDk\\BlazorApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|c:\\users\\ricob\\source\\repos\\blazorapp1\\components\\pages\\miles95.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|c:\\users\\ricob\\onedrive\\dokumenter\\github\\tomtemplateapi-stinedk\\blazorapp1\\components\\pages\\miles95.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|solutionrelative:components\\pages\\miles95.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|c:\\users\\ricob\\source\\repos\\blazorapp1\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|solutionrelative:components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|c:\\users\\ricob\\onedrive\\dokumenter\\github\\tomtemplateapi-stinedk\\blazorapp1\\components\\reusablecomponents\\linechart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|solutionrelative:components\\reusablecomponents\\linechart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|c:\\users\\ricob\\source\\repos\\blazorapp1\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|c:\\users\\ricob\\onedrive\\dokumenter\\github\\tomtemplateapi-stinedk\\blazorapp1\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|solutionrelative:components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|c:\\users\\ricob\\onedrive\\dokumenter\\github\\tomtemplateapi-stinedk\\blazorapp1\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +34,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\ricob\\source\\repos\\BlazorApp1\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\ricob\\source\\repos\\BlazorApp1\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAABgAAAA",
+              "DocumentIndex": 1,
+              "Title": "LineChart.razor",
+              "DocumentMoniker": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\tomtemplateapi-StineDk\\BlazorApp1\\Components\\ReusableComponents\\LineChart.razor",
+              "RelativeDocumentMoniker": "Components\\ReusableComponents\\LineChart.razor",
+              "ToolTip": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\tomtemplateapi-StineDk\\BlazorApp1\\Components\\ReusableComponents\\LineChart.razor",
+              "RelativeToolTip": "Components\\ReusableComponents\\LineChart.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T06:53:40.487Z",
+              "WhenOpened": "2024-08-07T08:48:23.816Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\tomtemplateapi-StineDk\\BlazorApp1\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\tomtemplateapi-StineDk\\BlazorApp1\\Components\\_Imports.razor",
+              "RelativeToolTip": "Components\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T08:35:26.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\tomtemplateapi-StineDk\\BlazorApp1\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\tomtemplateapi-StineDk\\BlazorApp1\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T06:53:40.487Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Miles95.razor",
-              "DocumentMoniker": "C:\\Users\\ricob\\source\\repos\\BlazorApp1\\Components\\Pages\\Miles95.razor",
+              "DocumentMoniker": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\tomtemplateapi-StineDk\\BlazorApp1\\Components\\Pages\\Miles95.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Miles95.razor",
-              "ToolTip": "C:\\Users\\ricob\\source\\repos\\BlazorApp1\\Components\\Pages\\Miles95.razor",
+              "ToolTip": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\tomtemplateapi-StineDk\\BlazorApp1\\Components\\Pages\\Miles95.razor",
               "RelativeToolTip": "Components\\Pages\\Miles95.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAjAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-07T06:53:01.641Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Counter.razor",
-              "DocumentMoniker": "C:\\Users\\ricob\\source\\repos\\BlazorApp1\\Components\\Pages\\Counter.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Counter.razor",
-              "ToolTip": "C:\\Users\\ricob\\source\\repos\\BlazorApp1\\Components\\Pages\\Counter.razor",
-              "RelativeToolTip": "Components\\Pages\\Counter.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T06:51:23.157Z",
               "EditorCaption": ""
             }
           ]

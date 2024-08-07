@@ -1,30 +1,16 @@
 ﻿@page "/miles95"
 @rendermode InteractiveServer
 
-<h3>Miles95</h3>
-
-<button @onclick=GetMiles95Data>Get Data</button>
-
-@if (miles95 != null)
-{
-	<h3>Date: @miles95.date</h3>
-	<p>Price: @miles95.price</p>
-}
+<LineChart title="Miles95" data="miles95"></LineChart>
 
 @code {
-	public Miles miles95;
+	public List<Miles> miles95;
 
 	public HttpClient httpClient = new HttpClient();
 
-	public async Task GetMiles95Data()
+	protected override async Task OnInitializedAsync()
 	{
-		miles95 = await httpClient.GetFromJsonAsync<Miles>("https://magsapi.onrender.com/api/miles95");
-		Console.WriteLine(miles95.date);
-	}
-
-	public class Miles
-	{
-		public string date { get; set; }
-		public string price { get; set; }
+		base.OnInitialized();
+		miles95 = await httpClient.GetFromJsonAsync<List<Miles>>("https://magsapi.onrender.com/api/miles95");
 	}
 }

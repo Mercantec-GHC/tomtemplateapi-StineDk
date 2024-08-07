@@ -1,0 +1,13 @@
+﻿@if (data != null)
+{
+	<ApexChart TItem="Miles" Title="@title" XAxisType="XAxisType.Datetime">
+		<ApexPointSeries TItem="Miles" Items="@data" Name="@title" SeriesType="SeriesType.Line" XValue="@(e => e.date)" YValue="@(e => e.price)" />
+	</ApexChart>
+}
+
+@code {
+	[Parameter]
+	public string title { get; set; }
+	[Parameter]
+	public List<Miles> data { get; set; }
+}
