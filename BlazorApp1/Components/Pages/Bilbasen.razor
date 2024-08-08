@@ -1,0 +1,56 @@
+﻿@page "/bilbasen"
+@rendermode InteractiveServer
+@inject HttpClient httpClient
+
+<h3>Bilbasen</h3>
+
+@if (cars != null)
+{
+	foreach (var car in cars)
+	{
+		<div class="card" style="width: 30%;">
+				
+				<div class="card-body">
+					<div id="carouselExampleIndicators" class="carousel slide"> 
+						<div class="carousel-indicators">
+							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="@(car.adTypeProperties.adnuntiusDisplay.kv.First(e => e.attr_imageurls != null).attr_imageurls[0])" alt="Img" style="object-fit: cover;height: auto;width: 100%;"> 
+							</div>
+							<div class="carousel-item">
+								<img src="@(car.adTypeProperties.adnuntiusDisplay.kv.First(e => e.attr_imageurls != null).attr_imageurls[1])"/>
+							</div>
+						</div>
+						<button class="carousel-control-prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+			
+		</div>
+		<h3>@car.adTypeProperties.adnuntiusDisplay.kv.First(e => e.attr_makemodel != null).attr_makemodel.FirstOrDefault()</h3>
+		<p>@car.adTypeProperties.adnuntiusDisplay.kv.Count</p>
+	}
+}
+
+@code {
+	public List<RootObject> cars;
+
+	protected override async Task OnInitializedAsync()
+	{
+		base.OnInitialized();
+		cars = await httpClient.GetFromJsonAsync<List<RootObject>>("https://magsapi.onrender.com/api/bilbasen");
+	}
+
+	public string GetAttrImg(RootObject car, int loop) {
+		return car.adTypeProperties.adnuntiusDisplay.kv.First(e => e.attr_imageurls != null).attr_imageurls[loop];
+	}
+}
