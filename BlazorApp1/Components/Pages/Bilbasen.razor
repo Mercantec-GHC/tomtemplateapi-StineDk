@@ -8,36 +8,17 @@
 {
 	foreach (var car in cars)
 	{
-		<div class="card" style="width: 30%;">
-				
-				<div class="card-body">
-					<div id="carouselExampleIndicators" class="carousel slide"> 
-						<div class="carousel-indicators">
-							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-						</div>
-						<div class="carousel-inner">
-							<div class="carousel-item active">
-								<img src="@(car.adTypeProperties.adnuntiusDisplay.kv.First(e => e.attr_imageurls != null).attr_imageurls[0])" alt="Img" style="object-fit: cover;height: auto;width: 100%;"> 
-							</div>
-							<div class="carousel-item">
-								<img src="@(car.adTypeProperties.adnuntiusDisplay.kv.First(e => e.attr_imageurls != null).attr_imageurls[1])"/>
-							</div>
-						</div>
-						<button class="carousel-control-prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							<span class="visually-hidden">Previous</span>
-						</button>
-						<button class="carousel-control-next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-							<span class="visually-hidden">Next</span>
-						</button>
-					</div>
-				</div>
-			
-		</div>
+		@* for (var i = 0; i > car.adTypeProperties.adnuntiusDisplay.kv.First(e => e.attr_imageurls != null).attr_imageurls.Count; i++)
+		{
+			<img src="@(car.adTypeProperties.adnuntiusDisplay.kv.First(e => e.attr_imageurls != null).attr_imageurls[i])" alt="Img" />
+
+		}  *@
+		<img src="@(car.adTypeProperties.adnuntiusDisplay.kv.First(e => e.attr_imageurls != null).attr_imageurls[0])" alt="Img" />
+		<img src="@(car.adTypeProperties.adnuntiusDisplay.kv.First(e => e.attr_imageurls != null).attr_imageurls[1])" alt="Img" />
 		<h3>@car.adTypeProperties.adnuntiusDisplay.kv.First(e => e.attr_makemodel != null).attr_makemodel.FirstOrDefault()</h3>
-		<p>@car.adTypeProperties.adnuntiusDisplay.kv.Count</p>
+		<p>@car.adTypeProperties.adnuntiusDisplay.kv.First(e => e.attr_vintage != null).attr_vintage.FirstOrDefault()</p>
+		<p>@car.adTypeProperties.adnuntiusDisplay.kv.First(e => e.attr_fuel != null).attr_fuel.FirstOrDefault()</p>
+		<p>@(car.adTypeProperties.adnuntiusDisplay.kv.First(e => e.listing_price_raw != null).listing_price_raw.FirstOrDefault()) Dkk</p>
 	}
 }
 

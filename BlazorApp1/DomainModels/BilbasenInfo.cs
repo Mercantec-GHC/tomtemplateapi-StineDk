@@ -25,10 +25,5 @@ namespace DomainModels
 		public List<string> listing_contact_municipality { get; set; }
 		public List<string> listing_contact_region { get; set; }
 		public List<string> attr_imageurls { get; set; }
-
-		public Kv()
-		{
-
-		}
     }
 }

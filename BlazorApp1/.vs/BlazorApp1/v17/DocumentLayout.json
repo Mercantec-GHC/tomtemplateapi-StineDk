@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\tomtemplateapi-StineDk\\BlazorApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|c:\\users\\ricob\\onedrive\\dokumenter\\github\\tomtemplateapi-stinedk\\blazorapp1\\components\\pages\\bilbasen.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|solutionrelative:components\\pages\\bilbasen.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|c:\\users\\ricob\\onedrive\\dokumenter\\github\\tomtemplateapi-stinedk\\blazorapp1\\domainmodels\\bilbaseninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|solutionrelative:domainmodels\\bilbaseninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|c:\\users\\ricob\\onedrive\\dokumenter\\github\\tomtemplateapi-stinedk\\blazorapp1\\components\\pages\\gasprices.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|solutionrelative:components\\pages\\gasprices.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|c:\\users\\ricob\\onedrive\\dokumenter\\github\\tomtemplateapi-stinedk\\blazorapp1\\components\\pages\\diesel.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|solutionrelative:components\\pages\\diesel.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|c:\\users\\ricob\\onedrive\\dokumenter\\github\\tomtemplateapi-stinedk\\blazorapp1\\components\\pages\\miles95.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|solutionrelative:components\\pages\\miles95.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|c:\\users\\ricob\\onedrive\\dokumenter\\github\\tomtemplateapi-stinedk\\blazorapp1\\components\\pages\\diesel.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|solutionrelative:components\\pages\\diesel.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|c:\\users\\ricob\\onedrive\\dokumenter\\github\\tomtemplateapi-stinedk\\blazorapp1\\components\\pages\\bilbasen.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|solutionrelative:components\\pages\\bilbasen.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|c:\\users\\ricob\\onedrive\\dokumenter\\github\\tomtemplateapi-stinedk\\blazorapp1\\components\\reusablecomponents\\linechart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|solutionrelative:components\\reusablecomponents\\linechart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|c:\\users\\ricob\\onedrive\\dokumenter\\github\\tomtemplateapi-stinedk\\blazorapp1\\domainmodels\\miles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|solutionrelative:domainmodels\\miles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|c:\\users\\ricob\\onedrive\\dokumenter\\github\\tomtemplateapi-stinedk\\blazorapp1\\domainmodels\\bilbaseninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D7E5AE6-D2B6-41EE-AD6A-F6E7E3279CEF}|BlazorApp1.csproj|solutionrelative:domainmodels\\bilbaseninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,64 +46,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "Miles.cs",
+              "DocumentMoniker": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\tomtemplateapi-StineDk\\BlazorApp1\\DomainModels\\Miles.cs",
+              "RelativeDocumentMoniker": "DomainModels\\Miles.cs",
+              "ToolTip": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\tomtemplateapi-StineDk\\BlazorApp1\\DomainModels\\Miles.cs",
+              "RelativeToolTip": "DomainModels\\Miles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T08:15:21.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LineChart.razor",
+              "DocumentMoniker": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\tomtemplateapi-StineDk\\BlazorApp1\\Components\\ReusableComponents\\LineChart.razor",
+              "RelativeDocumentMoniker": "Components\\ReusableComponents\\LineChart.razor",
+              "ToolTip": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\tomtemplateapi-StineDk\\BlazorApp1\\Components\\ReusableComponents\\LineChart.razor",
+              "RelativeToolTip": "Components\\ReusableComponents\\LineChart.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-09T07:58:15.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "BilbasenInfo.cs",
               "DocumentMoniker": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\tomtemplateapi-StineDk\\BlazorApp1\\DomainModels\\BilbasenInfo.cs",
               "RelativeDocumentMoniker": "DomainModels\\BilbasenInfo.cs",
               "ToolTip": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\tomtemplateapi-StineDk\\BlazorApp1\\DomainModels\\BilbasenInfo.cs",
               "RelativeToolTip": "DomainModels\\BilbasenInfo.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAkwBoAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-08T12:43:30.072Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GasPrices.razor",
-              "DocumentMoniker": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\tomtemplateapi-StineDk\\BlazorApp1\\Components\\Pages\\GasPrices.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\GasPrices.razor",
-              "ToolTip": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\tomtemplateapi-StineDk\\BlazorApp1\\Components\\Pages\\GasPrices.razor",
-              "RelativeToolTip": "Components\\Pages\\GasPrices.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T06:53:01.641Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Bilbasen.razor",
               "DocumentMoniker": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\tomtemplateapi-StineDk\\BlazorApp1\\Components\\Pages\\Bilbasen.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Bilbasen.razor",
               "ToolTip": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\tomtemplateapi-StineDk\\BlazorApp1\\Components\\Pages\\Bilbasen.razor",
               "RelativeToolTip": "Components\\Pages\\Bilbasen.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAACfAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAB/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-08T06:24:06.402Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "GasPrices.razor",
+              "DocumentMoniker": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\tomtemplateapi-StineDk\\BlazorApp1\\Components\\Pages\\GasPrices.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\GasPrices.razor",
+              "ToolTip": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\tomtemplateapi-StineDk\\BlazorApp1\\Components\\Pages\\GasPrices.razor",
+              "RelativeToolTip": "Components\\Pages\\GasPrices.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T06:53:01.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Diesel.razor",
               "DocumentMoniker": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\tomtemplateapi-StineDk\\BlazorApp1\\Components\\Pages\\Diesel.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Diesel.razor",
               "ToolTip": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\tomtemplateapi-StineDk\\BlazorApp1\\Components\\Pages\\Diesel.razor",
               "RelativeToolTip": "Components\\Pages\\Diesel.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T10:40:58.065Z"
+              "WhenOpened": "2024-08-07T10:40:58.065Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Miles95.razor",
               "DocumentMoniker": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\tomtemplateapi-StineDk\\BlazorApp1\\Components\\Pages\\Miles95.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Miles95.razor",
               "ToolTip": "C:\\Users\\ricob\\OneDrive\\Dokumenter\\GitHub\\tomtemplateapi-StineDk\\BlazorApp1\\Components\\Pages\\Miles95.razor",
               "RelativeToolTip": "Components\\Pages\\Miles95.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-08T06:45:44.443Z",
               "EditorCaption": ""

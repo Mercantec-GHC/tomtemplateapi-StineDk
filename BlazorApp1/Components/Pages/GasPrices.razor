@@ -21,5 +21,7 @@
 		base.OnInitialized();
 		miles95 = await httpClient.GetFromJsonAsync<List<Miles>>("https://magsapi.onrender.com/api/miles95");
 		diesel = await httpClient.GetFromJsonAsync<List<Miles>>("https://magsapi.onrender.com/api/diesel");
+		miles95 = miles95.OrderBy(e => e.date).ToList();
+		diesel = diesel.OrderBy(e => e.date).ToList();
 	}
 }
